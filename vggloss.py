@@ -12,7 +12,7 @@ from PIL import Image
 from tensorflow.keras import utils
 from copy import deepcopy as dc
 from random import randint
-from img_data_process import sort_nicely
+from img_process import sort_nicely
 import pydot
 import pydotplus
 tf.config.run_functions_eagerly(True)
